@@ -1,0 +1,56 @@
+📰 Project Title: News Topic Classifier Using BERT
+📌 Overview
+This project uses a fine-tuned BERT model to classify news articles into specific categories such as World, Sports, Business, and Sci/Tech. The model processes raw text input and predicts the most appropriate news topic with high accuracy, leveraging the power of transformer-based deep learning.
+
+🎯 Objective
+To automatically classify news headlines or articles into relevant categories using NLP techniques and a pre-trained BERT model, improving speed and consistency in news tagging.
+
+⚙️ Key Features
+Fine-tuned BERT for multi-class classification.
+
+Supports topics: World, Sports, Business, Sci/Tech.
+
+Tokenization and encoding via Hugging Face Tokenizer.
+
+Softmax probability output with predicted class.
+
+Lightweight Gradio UI (optional) for real-time testing.
+
+🧠 How It Works
+The input news text is tokenized using BERT tokenizer.
+
+The model processes the input and generates logits.
+
+Softmax converts logits to probabilities.
+
+The class with the highest probability is selected as the prediction.
+
+Optionally, a visual output shows class confidence levels.
+
+📊 Dataset Used
+AG News Dataset (commonly used for news topic classification).
+
+Contains news headlines and short descriptions labeled into 4 categories.
+
+🧰 Technologies Used
+Python
+
+PyTorch
+
+Hugging Face Transformers
+
+Gradio (optional)
+
+Pandas, NumPy
+
+💡 Use Cases
+News aggregation and filtering systems
+
+Content-based recommendation engines
+
+Media monitoring tools
+
+Automated journalism applications
+
+🚀 Conclusion
+This classifier shows how transformer models like BERT can be applied to real-world text classification problems such as news categorization. It provides fast, reliable predictions and can be easily extended to other text classification domains.
