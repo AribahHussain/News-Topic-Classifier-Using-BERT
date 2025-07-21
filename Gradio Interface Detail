@@ -1,0 +1,14 @@
+🖥️ Use of Gradio Interface
+The project integrates Gradio, a lightweight Python library, to build an intuitive web-based interface for real-time interaction with the BERT model. This allows users to input news text (headlines or short articles) directly through a simple text box and instantly view the model’s predicted category.
+
+Key advantages of using Gradio:
+
+Real-Time Testing: Users can test the classifier instantly without needing to write code.
+
+User-Friendly Interface: Makes the model accessible to non-technical users through a clean and minimal UI.
+
+Top Prediction Display: Outputs the predicted category along with class confidence scores.
+
+Integration Ready: The interface can be embedded in websites or shared via public links for quick demos.
+
+By using Gradio, the project becomes more interactive, demonstrable, and deployment-ready, ideal for showcasing the model in both academic and real-world settings.
